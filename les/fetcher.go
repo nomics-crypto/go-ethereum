@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/fetcher"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/nomics-crypto/go-ethereum/common"
+	"github.com/nomics-crypto/go-ethereum/consensus"
+	"github.com/nomics-crypto/go-ethereum/core"
+	"github.com/nomics-crypto/go-ethereum/core/rawdb"
+	"github.com/nomics-crypto/go-ethereum/core/types"
+	"github.com/nomics-crypto/go-ethereum/ethdb"
+	"github.com/nomics-crypto/go-ethereum/les/fetcher"
+	"github.com/nomics-crypto/go-ethereum/light"
+	"github.com/nomics-crypto/go-ethereum/log"
+	"github.com/nomics-crypto/go-ethereum/p2p/enode"
 )
 
 const (

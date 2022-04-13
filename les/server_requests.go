@@ -20,15 +20,15 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/nomics-crypto/go-ethereum/common"
+	"github.com/nomics-crypto/go-ethereum/core"
+	"github.com/nomics-crypto/go-ethereum/core/state"
+	"github.com/nomics-crypto/go-ethereum/core/types"
+	"github.com/nomics-crypto/go-ethereum/light"
+	"github.com/nomics-crypto/go-ethereum/log"
+	"github.com/nomics-crypto/go-ethereum/metrics"
+	"github.com/nomics-crypto/go-ethereum/rlp"
+	"github.com/nomics-crypto/go-ethereum/trie"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

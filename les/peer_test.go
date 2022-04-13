@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/nomics-crypto/go-ethereum/common"
+	"github.com/nomics-crypto/go-ethereum/core"
+	"github.com/nomics-crypto/go-ethereum/core/forkid"
+	"github.com/nomics-crypto/go-ethereum/core/rawdb"
+	"github.com/nomics-crypto/go-ethereum/core/types"
+	"github.com/nomics-crypto/go-ethereum/p2p"
+	"github.com/nomics-crypto/go-ethereum/p2p/enode"
+	"github.com/nomics-crypto/go-ethereum/params"
 )
 
 type testServerPeerSub struct {

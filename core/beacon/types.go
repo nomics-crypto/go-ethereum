@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/nomics-crypto/go-ethereum/common"
+	"github.com/nomics-crypto/go-ethereum/common/hexutil"
+	"github.com/nomics-crypto/go-ethereum/core/types"
+	"github.com/nomics-crypto/go-ethereum/trie"
 )
 
 //go:generate go run github.com/fjl/gencodec -type PayloadAttributesV1 -field-override payloadAttributesMarshaling -out gen_blockparams.go
 
-// PayloadAttributesV1 structure described at https://github.com/ethereum/execution-apis/pull/74
+// PayloadAttributesV1 structure described at https://github.com/nomics-crypto/execution-apis/pull/74
 type PayloadAttributesV1 struct {
 	Timestamp             uint64         `json:"timestamp"     gencodec:"required"`
 	Random                common.Hash    `json:"random"        gencodec:"required"`
@@ -42,7 +42,7 @@ type payloadAttributesMarshaling struct {
 
 //go:generate go run github.com/fjl/gencodec -type ExecutableDataV1 -field-override executableDataMarshaling -out gen_ed.go
 
-// ExecutableDataV1 structure described at https://github.com/ethereum/execution-apis/src/engine/specification.md
+// ExecutableDataV1 structure described at https://github.com/nomics-crypto/execution-apis/src/engine/specification.md
 type ExecutableDataV1 struct {
 	ParentHash    common.Hash    `json:"parentHash"    gencodec:"required"`
 	FeeRecipient  common.Address `json:"feeRecipient"  gencodec:"required"`

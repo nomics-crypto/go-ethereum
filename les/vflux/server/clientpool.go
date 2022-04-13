@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/les/vflux"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/nomics-crypto/go-ethereum/common/mclock"
+	"github.com/nomics-crypto/go-ethereum/ethdb"
+	"github.com/nomics-crypto/go-ethereum/les/utils"
+	"github.com/nomics-crypto/go-ethereum/les/vflux"
+	"github.com/nomics-crypto/go-ethereum/log"
+	"github.com/nomics-crypto/go-ethereum/p2p/enode"
+	"github.com/nomics-crypto/go-ethereum/p2p/nodestate"
+	"github.com/nomics-crypto/go-ethereum/rlp"
 )
 
 var (

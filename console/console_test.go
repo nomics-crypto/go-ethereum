@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/nomics-crypto/go-ethereum/common"
+	"github.com/nomics-crypto/go-ethereum/consensus/ethash"
+	"github.com/nomics-crypto/go-ethereum/console/prompt"
+	"github.com/nomics-crypto/go-ethereum/core"
+	"github.com/nomics-crypto/go-ethereum/eth"
+	"github.com/nomics-crypto/go-ethereum/eth/ethconfig"
+	"github.com/nomics-crypto/go-ethereum/internal/jsre"
+	"github.com/nomics-crypto/go-ethereum/miner"
+	"github.com/nomics-crypto/go-ethereum/node"
 )
 
 const (
