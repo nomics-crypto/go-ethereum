@@ -110,7 +110,11 @@ func UnmarshalFixedText(typname string, input, out []byte) error {
 		return err
 	}
 	if len(raw)/2 != len(out) {
-		return fmt.Errorf("hex string has length %d, want %d for %s", len(raw), len(out)*2, typname)
+		if len(raw)/2 > len(out) {
+			return fmt.Errorf("hex string has length %d, want %d for %s", len(raw), len(out)*2, typname)
+		}
+		padded := fmt.Sprintf(fmt.Sprintf("%%0%ds", len(out)*2), string(raw))
+		raw = []byte(padded)
 	}
 	// Pre-verify syntax before modifying out.
 	for _, b := range raw {
